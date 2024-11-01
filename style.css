@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: poppins;
+    background-color: #161616;
+}
+
+.cart {
+    width: 80%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px 50px;
+    background-color: #303030;
+    box-shadow: 0 4px 8px #101010;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: orange;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 20px 0px;
+    border-bottom: 1px solid orange;
+}
+
+.item-image {
+    width: 130px;
+    /* height: 100px; */
+    margin-right: 15px;
+}
+
+.item-details {
+    flex: 1;
+    color: white;
+    padding-left: 20px;
+}
+
+.item-name {
+    font-size: 18px;
+    color: white;
+}
+
+.item-price {
+    color: lightgray;
+    font-size: 16px;
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.quantity-controls button {
+    width: 25px;
+    height: 25px;
+    font-size: 18px;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.quantity-controls button:hover {
+    background-color: white;
+}
+
+.quantity {
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.delete-btn, .like-btn {
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #ff4040;
+    border: none;
+    color: #303030;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+.delete-btn:hover {
+    background-color: #fd5858;
+}
+
+.like-btn {
+    color: #ccc;
+    font-size: 18px;
+    background: transparent;
+}
+
+.like-btn.active {
+    color: #ff4040;
+}
+
+.total {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+    color: orange;
+}
